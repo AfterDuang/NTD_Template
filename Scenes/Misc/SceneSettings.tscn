@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cx8kkqawojm0m"]
+
+[sub_resource type="Environment" id="Environment_8bd8l"]
+background_mode = 3
+glow_enabled = true
+glow_normalized = true
+glow_intensity = 1.0
+glow_bloom = 0.5
+
+[node name="SceneSettings" type="Node" unique_id=2061019359]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=271565974]
+environment = SubResource("Environment_8bd8l")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=554136308]
